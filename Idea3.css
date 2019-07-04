@@ -39,7 +39,54 @@ header {
     color: red;
 }
 
+.form-control-div {
+    margin-top: 15rem;
+    margin-left: 15rem;
+}
+
 .form-control-div input[type=text]{
     border: none;
+    outline: none;
+    height: 1.9rem;
+    width: 17rem;
+    border-radius: 2pt;
     background-color: white;
+    color: black;
+    padding: 0.5em;
+}
+
+.form-control-div input[type=text]:focus{
+    transition: all 0s ease 0s;
+    box-shadow: 0pt 0pt 5pt 3pt red;
+}
+
+.usern-label {
+    color: white;
+    font-size: 15pt;
+    margin-bottom: 1rem;
+    font-family: 'Ubuntu';
+}
+
+.email-label {
+    color: white;
+    font-size: 15pt;
+    margin-bottom: 1rem;
+    font-family: 'Ubuntu';
+}
+
+.signup-btn {
+    margin-left: 6rem;
+    margin-top: 2rem;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5pt;
+    background-color: rgb(241, 63, 63);
+    font-family: 'Questrial';
+    font-size: 15pt;
+}
+
+.signup-btn:hover {
+    transition: all 0s ease 0s;
+    background-color: red;
 }
