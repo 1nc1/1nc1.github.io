@@ -1,5 +1,45 @@
-body {
-    margin-top: 70pt !important;
-    color: #fff !important; 
-    background: #333 !important; 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li a {
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    font-size: 16pt;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding */
+}
+
+.nav__links {
+    list-style: none;
+    margin-left: 47rem;
+    margin-top: 1rem;
+}
+
+.nav__links li {
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+.nav__links a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links a:hover {
+    color: red;
+}
+
+.form-control-div input[type=text]{
+    border: none;
+    background-color: white;
 }
